@@ -3,6 +3,7 @@ package com.example.vdccalculator
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.PersistableBundle
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -13,40 +14,28 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // get refence to button
-        val btn_alculate = findViewById(R.id.button2) as Button
-        val PdNumber = findViewById(R.id.editTextNumber) as EditText
-        val ChNumber = findViewById(R.id.editTextNumber2) as EditText
-        val PlNumber = findViewById(R.id.editTextNumber3) as EditText
-        val ChfView = findViewById(R.id.textView4) as TextView
+        var btn_calculate = findViewById<View>(R.id.button2) as Button
+        var PdNumber = findViewById<View>(R.id.editTextNumber) as EditText
+        var ChNumber = findViewById<View>(R.id.editTextNumber2) as EditText
+        var PlNumber = findViewById<View>(R.id.editTextNumber3) as EditText
+        var ChfView = findViewById<View>(R.id.textView4) as TextView
 
-
-
-
-        fun inputIsNotEmpty():Boolean{
-            var b = true
-            if (PdNumber.text.toString().trim().isEmpty()){
-                PdNumber.error = "Requierd"
+        btn_calculate.setOnClickListener(View.OnClickListener {
+            var num1 = PdNumber * 0.15
+            var num2 = 0
+            if (ChNumber >200){
+                 num2 = ChNumber  * 3
+            }else {
+                 num2 = ChNumber * 2
             }
-            if (ChNumber.text.toString().trim().isEmpty()){
-                ChNumber.error = "Requierd"
-            }
-            if (PlNumber.text.toString().trim().isEmpty()){
-                PlNumber.error = "Requierd"
-            }
-            return b
-        }
 
-        fun CalculateTax(){
-            if (inputIsNotEmpty()){
-                val input1 = PdNumber.text.toString().trim().toBigInteger()
-                val input2 = ChNumber.text.toString().trim().toBigInteger()
-                val input3 = PlNumber.text.toString().trim().toBigInteger()
-            }
-        }
+            var restot = num1 + num2
+            if (PlNumber < 125){
 
-        btn_alculate.setOnClickListener(){
-            CalculateTax()
-        }
+            }
+            ChfView.text="La taxe de palques sera de"+(restot.text.ToString())
+        })
+
 
     }
 }

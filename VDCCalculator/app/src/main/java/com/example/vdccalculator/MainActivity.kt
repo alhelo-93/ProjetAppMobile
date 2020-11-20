@@ -7,6 +7,10 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import java.math.BigInteger
+
+
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,8 +25,17 @@ class MainActivity : AppCompatActivity() {
         var ChfView = findViewById<View>(R.id.textView4) as TextView
 
         btn_calculate.setOnClickListener(View.OnClickListener {
-            var num1 = PdNumber * 0.15
+            var PdNumberint = 0
+            val PdNumber = PdNumberint.toInt()
             var num2 = 0
+            var ChNumberInt = 0
+            val ChNumber = ChNumberInt.toInt()
+            var PlNumberInt = 0
+            val PlNumber = PlNumberInt.toInt()
+
+
+            var num1 = PdNumberint * 0.15
+
             if (ChNumber >200){
                  num2 = ChNumber  * 3
             }else {
@@ -33,9 +46,12 @@ class MainActivity : AppCompatActivity() {
             if (PlNumber < 125){
 
             }
-            ChfView.text="La taxe de palques sera de"+(restot.text.ToString())
+            ChfView.text="La taxe de palques sera de"+restot.text.toString()
         })
 
 
     }
 }
+
+
+

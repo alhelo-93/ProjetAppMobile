@@ -1,2 +1,2 @@
-![introBanner](VD_logo .png)
+![introBanner](VD_logo.png)
 # ProjetAppMonile

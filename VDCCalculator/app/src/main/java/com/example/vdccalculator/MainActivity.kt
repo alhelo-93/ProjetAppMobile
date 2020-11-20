@@ -38,9 +38,19 @@ class MainActivity : AppCompatActivity() {
             var pdNumberTot= pdNumberInt * 0.15
             var chNumberTot = chNumberInt*2
 
+            if (plNumberInt < 125) {
+                var restot = chNumberTot + pdNumberTot
+                restot = chNumberTot + pdNumberTot
+                var restotrab =restot - restot *75/100
+                var restotrabfin = restotrab +40
+                ChfView.text="La taxe de palques sera de "+restotrabfin
+            }else {
 
-           var restot = chNumberTot + pdNumberTot + 40
-            ChfView.text="La taxe de palques sera de"+restot
+                var restot = chNumberTot + pdNumberTot
+                var restrotfin = restot+40
+                ChfView.text="La taxe de palques sera de "+restrotfin
+            }
+
         })
 
 

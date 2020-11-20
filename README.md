@@ -1,1 +1,2 @@
+![introBanner](app.png)
 # ProjetAppMonile

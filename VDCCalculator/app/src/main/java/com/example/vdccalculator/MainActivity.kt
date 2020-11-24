@@ -36,20 +36,31 @@ class MainActivity : AppCompatActivity() {
             var plNumberInt = plNumbersrt.toInt()
             var num2 = 0
             var chNumberTot = 0
+            // les constants
+            // the price by KG
+            var KgPrice : Double = 0.15
+            // Unite KW
+            var KW : Int = 100
+            // if less than 100KW
+            var KW100OrLess :Int = 2  // CHF
+            // if more than 100KW
+            var KWMore100 : Int = 3 // CHF
 
-            var pdNumberTot = pdNumberInt * 0.15
+
+
+            var pdNumberTot = pdNumberInt * KgPrice
             //If we have 100 kW or less
-            if (chNumberInt <= 100) {
-                 chNumberTot = chNumberInt * 2
+            if (chNumberInt <= KW) {
+                 chNumberTot = chNumberInt * KW100OrLess
             }
             //If we have more than 100 KW
             else {
                 // we substract 100 from the total kw
-                var chMore100 = chNumberInt - 100
+                var chMore100 = chNumberInt - KW
                 //the rest we multiply by 3
-                var chMore100Cl = chMore100 * 3
+                var chMore100Cl = chMore100 * KWMore100
                 //the 100 we multiply by 2
-                var ch100 = 100 * 2
+                var ch100 = KW * 2
                 //We add all together
                  chNumberTot = chMore100Cl + ch100
             }
@@ -60,7 +71,7 @@ class MainActivity : AppCompatActivity() {
                 //We make the 75% of the total price if the car is "Green"
                 var restotrab = restot - restot * 75 / 100
                 //we add the base taxe to all vehicles
-                var restotrabfin = restotrab + 40
+                var restotrabfin : Double = restotrab + 40
                 //show the total result price
                 ChfView.text = "La taxe de palques sera de " + restotrabfin
             }

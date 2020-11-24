@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // get refence to button
+        // get refence to button and edittext
 
         var btn_calculate = findViewById(R.id.button2) as Button
 
@@ -27,28 +27,51 @@ class MainActivity : AppCompatActivity() {
             var PlNumber = findViewById(R.id.editTextNumber3) as EditText
             var ChfView = findViewById<View>(R.id.textView4) as TextView
 
-            val pdNumberstr:String = PdNumber.text.toString()
+            // String to int conversion
+            val pdNumberstr: String = PdNumber.text.toString()
             val pdNumberInt = pdNumberstr.toInt()
-            val chNumberstr:String = ChNumber.text.toString()
+            val chNumberstr: String = ChNumber.text.toString()
             var chNumberInt = chNumberstr.toInt()
-            val plNumbersrt:String = PlNumber.text.toString()
+            val plNumbersrt: String = PlNumber.text.toString()
             var plNumberInt = plNumbersrt.toInt()
             var num2 = 0
+            var chNumberTot = 0
 
-            var pdNumberTot= pdNumberInt * 0.15
-            var chNumberTot = chNumberInt*2
-
+            var pdNumberTot = pdNumberInt * 0.15
+            //If we have 100 kW or less
+            if (chNumberInt <= 100) {
+                 chNumberTot = chNumberInt * 2
+            }
+            //If we have more than 100 KW
+            else {
+                // we substract 100 from the total kw
+                var chMore100 = chNumberInt - 100
+                //the rest we multiply by 3
+                var chMore100Cl = chMore100 * 3
+                //the 100 we multiply by 2
+                var ch100 = 100 * 2
+                //We add all together
+                 chNumberTot = chMore100Cl + ch100
+            }
+            //If the car polutes less than 125G of Co2/Km or electric/hybrid car
             if (plNumberInt < 125) {
+                //we take the total power in KW  price and we add the total weigth price
                 var restot = chNumberTot + pdNumberTot
-                restot = chNumberTot + pdNumberTot
-                var restotrab =restot - restot *75/100
-                var restotrabfin = restotrab +40
-                ChfView.text="La taxe de palques sera de "+restotrabfin
-            }else {
-
+                //We make the 75% of the total price if the car is "Green"
+                var restotrab = restot - restot * 75 / 100
+                //we add the base taxe to all vehicles
+                var restotrabfin = restotrab + 40
+                //show the total result price
+                ChfView.text = "La taxe de palques sera de " + restotrabfin
+            }
+            //If we polute more than than 125G of Co2/Km
+            else {
+                //we take the total power in KW  price and we add the total weigth price
                 var restot = chNumberTot + pdNumberTot
-                var restrotfin = restot+40
-                ChfView.text="La taxe de palques sera de "+restrotfin
+                //we add the base taxe to all vehicles
+                var restrotfin = restot + 40
+                //show the total result price
+                ChfView.text = "La taxe de palques sera de " + restrotfin
             }
 
         })

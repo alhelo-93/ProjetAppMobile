@@ -24,10 +24,12 @@ class MainActivity : AppCompatActivity() {
 
         var btn_calculate = findViewById(R.id.button2) as Button
 
-        btn_calculate.setOnClickListener(View.OnClickListener {
+        btn_calculate.setOnClickListener(View.OnClickListener
+        {
             var PdNumber = findViewById(R.id.editTextNumber) as EditText
             var ChNumber = findViewById(R.id.editTextNumber2) as EditText
             var PlNumber = findViewById(R.id.editTextNumber3) as EditText
+
             var ChfView = findViewById<View>(R.id.textView4) as TextView
 
             // String to int conversion

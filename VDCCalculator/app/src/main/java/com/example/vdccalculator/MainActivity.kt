@@ -7,16 +7,21 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import java.math.BigInteger
 import kotlin.math.absoluteValue
 
 
+
 class MainActivity : AppCompatActivity() {
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        setupNavigation()
         // get refence to button and edittext
 
         var btn_calculate = findViewById(R.id.button2) as Button
@@ -74,10 +79,39 @@ class MainActivity : AppCompatActivity() {
                 ChfView.text = "La taxe de palques sera de " + restrotfin
             }
 
+
+
         })
 
 
+
+
+
+
     }
+
+    private fun setupNavigation() {
+        val navView: BottomNavigationView = findViewById(R.id.nav_view)
+        navView.setOnNavigationItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.home -> {
+                    Toast.makeText(this, "Taxe Plaques", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.Photos -> {
+                    Toast.makeText(this, "Coût entretien", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.more -> {
+                    Toast.makeText(this, "Tableau de coûts", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                else -> true
+            }
+        }
+    }
+
+
 }
 
 

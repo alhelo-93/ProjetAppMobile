@@ -6,6 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
@@ -15,7 +32,7 @@
         android:layout_marginEnd="151dp"
         android:layout_marginRight="151dp"
         android:layout_marginBottom="32dp"
-        android:text="Calculer"
+        android:text="@string/calculer"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.888"
@@ -64,7 +81,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Poids Total"
+        android:text="@string/poids_total"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.086"
@@ -76,7 +93,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Kw"
+        android:text="@string/kw"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.163"
@@ -88,7 +105,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="G de CO² par Km"
+        android:text="@string/g_de_co_par_km"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.055"
@@ -105,9 +122,14 @@
         android:layout_marginEnd="177dp"
         android:layout_marginRight="177dp"
         android:layout_marginBottom="172dp"
-        android:text="TextView"
+        android:text="@string/textview"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+

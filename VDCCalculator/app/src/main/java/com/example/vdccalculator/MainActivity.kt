@@ -104,15 +104,15 @@ class MainActivity : AppCompatActivity() {
         navView.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.home -> {
-                    Toast.makeText(this, "Taxe Plaques", Toast.LENGTH_SHORT).show()
+
                     true
                 }
                 R.id.Photos -> {
-                    Toast.makeText(this, "Coût entretien", Toast.LENGTH_SHORT).show()
+
                     true
                 }
                 R.id.more -> {
-                    Toast.makeText(this, "Tableau de coûts", Toast.LENGTH_SHORT).show()
+
                     true
                 }
                 else -> true

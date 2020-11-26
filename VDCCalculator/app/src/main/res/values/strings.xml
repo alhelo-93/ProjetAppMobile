@@ -5,4 +5,6 @@
     <string name="kw">Kw</string>
     <string name="poids_total">Poids Total</string>
     <string name="calculer">Calculer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

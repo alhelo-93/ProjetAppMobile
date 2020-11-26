@@ -1,5 +1,6 @@
 package com.example.vdccalculator
 
+import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.PersistableBundle
@@ -8,13 +9,16 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import androidx.fragment.app.FragmentManager
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import java.math.BigInteger
+
 import kotlin.math.absoluteValue
 
 
 class MainActivity : AppCompatActivity() {
 
+val manager = supportFragmentManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -75,13 +79,13 @@ class MainActivity : AppCompatActivity() {
                 chNumberTot = chMore100Cl + ch100
             }
             //If the car pollutes less than 125G of Co2/Km or electric/hybrid car
-            if (plNumberInt < CO2Measure) {
+            if (plNumberInt <= CO2Measure) {
                 //we take the total power in KW  price and we add the total weigth price
                 var restot = chNumberTot + pdNumberTot
                 //We make the 75% of the total price if the car is "Green"
                 var restotrab = restot - (restot * GreenRebate)
                 //we add the base taxe to all vehicles
-                var restotrabfin = restotrab + BasicTaxes
+                var restotrabfin  = restotrab + BasicTaxes
                 //show the total result price
                 ChfView.text = "La taxe de palques sera de " + restotrabfin
             }
@@ -105,17 +109,17 @@ class MainActivity : AppCompatActivity() {
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
         navView.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
-                R.id.home -> {
+                R.id.taxe -> {
 
-                    true
+                    return@setOnNavigationItemSelectedListener  true
                 }
-                R.id.Photos -> {
+                R.id.maintenance -> {
 
-                    true
+                    return@setOnNavigationItemSelectedListener  true
                 }
-                R.id.more -> {
+                R.id.cacul -> {
 
-                    true
+                    return@setOnNavigationItemSelectedListener  true
                 }
                 else -> true
             }

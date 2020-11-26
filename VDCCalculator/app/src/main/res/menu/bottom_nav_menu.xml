@@ -3,17 +3,17 @@
 
 
     <item
-        android:id="@+id/home"
+        android:id="@+id/taxe"
         android:icon="@drawable/ic_baseline_calculate_24"
         android:title="Taxe Plaques" />
 
     <item
-        android:id="@+id/Photos"
+        android:id="@+id/maintenance"
         android:icon="@drawable/ic_baseline_build_24"
         android:title="Coût entretien" />
 
     <item
-        android:id="@+id/more"
+        android:id="@+id/cacul"
         android:icon="@drawable/ic_baseline_table_rows_24"
         android:title="Tableau de coûts" />
 

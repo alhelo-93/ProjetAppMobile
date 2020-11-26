@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
             // The price if less than KwMeasure
             var higherPrice: Int = 3
             // The pollution Measured By Co2/KM
-            var CO2Measure: Int = 125
+            var CO2Measure: Int = 120
             // the base taxes to all vehicles
             var BasicTaxes: Int = 40
             // Green Taxes

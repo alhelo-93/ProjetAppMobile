@@ -19,6 +19,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/VDCCalculator" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -34,10 +38,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1138" y="349" key="FileChooserDialogImpl" timestamp="1606246725074">
+    <state x="1138" y="349" key="FileChooserDialogImpl" timestamp="1606484932835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1138" y="349" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605855872254" />
+    <state x="1138" y="349" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606484932835" />
     <state x="1138" y="349" key="FileChooserDialogImpl/1920.-230.1463.800/0.0.1920.1040@0.0.1920.1040" timestamp="1606246725074" />
+    <state x="198" y="114" key="SettingsEditor" timestamp="1606484901558">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="198" y="114" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606484901558" />
   </component>
 </project>

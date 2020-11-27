@@ -1,5 +1,7 @@
 package com.example.vdccalculator
 
+
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -9,14 +11,15 @@ import android.widget.TextView
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
+
 class MainActivity : AppCompatActivity() {
 
 val manager = supportFragmentManager
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setupNavigation()
+
         // get refence to button and edittext
 
         var btn_calculate = findViewById(R.id.button2) as Button
@@ -97,6 +100,8 @@ val manager = supportFragmentManager
 
 
     }
+
+
 
     private fun setupNavigation() {
         val navView: BottomNavigationView = findViewById(R.id.nav_view)

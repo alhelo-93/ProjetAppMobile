@@ -55,6 +55,12 @@ val manager = supportFragmentManager
             var GreenRebate: Double = 0.75
 
 
+            if (PdNumber.isEmpty(text)){
+                totalWeight.setError("faut introduir un numéro ");
+            }else {
+            //do something
+        }
+
             var pdNumberTot = pdNumberInt * Kgprice
             //If we have 100 kW or less
             if (chNumberInt <= KwMeasure) {

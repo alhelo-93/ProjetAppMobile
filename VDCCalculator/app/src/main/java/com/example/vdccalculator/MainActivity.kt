@@ -1,19 +1,12 @@
 package com.example.vdccalculator
 
-import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
-import android.widget.Toast
-import androidx.fragment.app.FragmentManager
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import java.math.BigInteger
-
-import kotlin.math.absoluteValue
 
 
 class MainActivity : AppCompatActivity() {
@@ -30,11 +23,11 @@ val manager = supportFragmentManager
 
         btn_calculate.setOnClickListener(View.OnClickListener
         {
-            var PdNumber = findViewById(R.id.editTextNumber) as EditText
-            var ChNumber = findViewById(R.id.editTextNumber2) as EditText
-            var PlNumber = findViewById(R.id.editTextNumber3) as EditText
+            var PdNumber = findViewById(R.id.totalWeight) as EditText
+            var ChNumber = findViewById(R.id.PowerWatt) as EditText
+            var PlNumber = findViewById(R.id.carbonO2) as EditText
 
-            var ChfView = findViewById<View>(R.id.textView4) as TextView
+            var ChfView = findViewById<View>(R.id.result) as TextView
 
             // String to int conversion
             val pdNumberstr: String = PdNumber.text.toString()

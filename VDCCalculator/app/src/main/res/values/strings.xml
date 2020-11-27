@@ -1,10 +1,14 @@
 <resources>
     <string name="app_name">VDCCalculator</string>
     <string name="textview">TextView</string>
-    <string name="g_de_co_par_km">G de CO² par Km</string>
+    <string name="gazCarbon">G de CO² par Km</string>
     <string name="kw">Kw</string>
     <string name="poids_total">Poids Total</string>
-    <string name="calculer">Calculer</string>
+    <string name="btCalculer">Calculer</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+
 </resources>

@@ -2,23 +2,20 @@ package com.example.vdccalculator
 
 
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
-import com.google.android.material.bottomnavigation.BottomNavigationView
-
+import com.developers.hand.second.navigationdrawerexercise.R
 
 
 class MainActivity : AppCompatActivity() {
 
-val manager = supportFragmentManager
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        setupNavigation()
+        setContentView(R.layout.taxe_layout)
 
         // get refence to button and edittext
 
@@ -57,12 +54,6 @@ val manager = supportFragmentManager
             // Green Taxes
             var GreenRebate: Double = 0.75
 
-
-            if (PdNumber.isEmpty(text)){
-                totalWeight.setError("faut introduir un numéro ");
-            }else {
-            //do something
-        }
 
             var pdNumberTot = pdNumberInt * Kgprice
             //If we have 100 kW or less
@@ -109,26 +100,7 @@ val manager = supportFragmentManager
 
 
 
-    private fun setupNavigation() {
-        val navView: BottomNavigationView = findViewById(R.id.nav_view)
-        navView.setOnNavigationItemSelectedListener { item ->
-            when (item.itemId) {
-                R.id.taxe -> {
 
-                    return@setOnNavigationItemSelectedListener  true
-                }
-                R.id.maintenance -> {
-
-                    return@setOnNavigationItemSelectedListener  true
-                }
-                R.id.cacul -> {
-
-                    return@setOnNavigationItemSelectedListener  true
-                }
-                else -> true
-            }
-        }
-    }
 
 
 }

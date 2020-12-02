@@ -15,3 +15,11 @@
 
 * émettent moins de 120 g de CO2 au km;
 * fonctionnent au gaz ou à un carburant naturel (colza, bioéthanol, etc.) et sont spécifiquement équipés pour l'usage de ce genre de  carburant.
+
+# Mise en place
+* Voici la marche à suivre pour reproduire l'environnement de développement de cette application
+
+# Pérequis de configuration
+* Interpréteur de ligne de commande (CLI) compatible bash. Sur Windows: Cmder, git bash, wsl (mais pas PowerShell)
+* Git version 2.19 minimum. Vérification avec: git --version
+* Android studio SDK Components Setup faut cocher Android Virtul Device 

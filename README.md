@@ -2,9 +2,9 @@
 # ProjetAppMobile : VDCCalculator
 * L’objectif du projet est de créer une application permettant aux utilisteur de gérer les rapports de contrôles de véhicules(taxes, assurances, entrtien , carburant).
 
-Un premier niveau de détail des fonctionnalités du site se trouve dans le cahier des charges
+* Un premier niveau de détail des fonctionnalités du site se trouve dans le cahier des charges
 
-Les spécifications exactes sur lesquelles le développement est effectué se trouvent dans les User Stories des projets IceScrum (détails ci-dessous)
+* Les spécifications exactes sur lesquelles le développement est effectué se trouvent dans les User Stories des projets IceScrum (détails ci-dessous)
 
 ## Voitures ou véhicules de < 3500 kg
 * Une taxe de base de CHF 40.– est perçue puis

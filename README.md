@@ -6,6 +6,13 @@
 
 * Les spécifications exactes sur lesquelles le développement est effectué se trouvent dans les User Stories des projets IceScrum (détails ci-dessous)
 
+# Mise en place
+* Voici la marche à suivre pour reproduire l'environnement de développement de cette application
+
+# Pérequis de configuration
+* Interpréteur de ligne de commande (CLI) compatible bash. Sur Windows: Cmder, git bash, wsl (mais pas PowerShell)
+* Git version 2.19 minimum. Vérification avec: git --version
+* Android studio SDK Components Setup faut cocher Android Virtul Device 
 ## Voitures ou véhicules de < 3500 kg
 * Une taxe de base de CHF 40.– est perçue puis
 
@@ -15,11 +22,3 @@
 
 * émettent moins de 120 g de CO2 au km;
 * fonctionnent au gaz ou à un carburant naturel (colza, bioéthanol, etc.) et sont spécifiquement équipés pour l'usage de ce genre de  carburant.
-
-# Mise en place
-* Voici la marche à suivre pour reproduire l'environnement de développement de cette application
-
-# Pérequis de configuration
-* Interpréteur de ligne de commande (CLI) compatible bash. Sur Windows: Cmder, git bash, wsl (mais pas PowerShell)
-* Git version 2.19 minimum. Vérification avec: git --version
-* Android studio SDK Components Setup faut cocher Android Virtul Device 

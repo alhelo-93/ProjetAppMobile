@@ -23,6 +23,6 @@
 * émettent moins de 120 g de CO2 au km;
 * fonctionnent au gaz ou à un carburant naturel (colza, bioéthanol, etc.) et sont spécifiquement équipés pour l'usage de ce genre de  carburant.
 ## IceScrum
-* Le suivi des projets se fait dans les projets IceScrum suivants:
+* Le suivi des projets se fait dans les projets IceScrum suivants: Taxes, Assurances, entretien, carburant
 * Chaque développeur(se) veillera à toujours travailler sur une tâche de son projet IceScrum. Il/elle veillera également à reporter dans le champ time spent de la tâche le nombre de minutes approximativement passées à la réalisation de la tâche.
 * Le journal de travail de chacun(e) pourra ainsi être automatiquement construit grâce aux pages doc\timesheets-xxx\Timesheet-individual.html

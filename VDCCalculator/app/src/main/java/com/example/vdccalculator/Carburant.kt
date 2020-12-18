@@ -3,12 +3,12 @@ package com.example.vdccalculator
 
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
-import com.developers.hand.second.navigationdrawerexercise.R
+import androidx.appcompat.app.AppCompatActivity
 
 
 class Carburant : AppCompatActivity() {

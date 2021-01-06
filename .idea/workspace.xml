@@ -30,7 +30,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_API_30_x86]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -47,6 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/VDCCalculator/app" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -151,10 +152,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609917926966" />
-    <state x="805" y="327" key="AndroidCreateXmlResourceDialog" timestamp="1609917809998">
+    <state x="805" y="327" key="AndroidCreateXmlResourceDialog" timestamp="1609920121446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="805" y="327" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609917809998" />
+    <state x="805" y="327" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609920121446" />
+    <state x="1243" y="335" key="FileChooserDialogImpl" timestamp="1609919974159">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1243" y="335" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609919974159" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1609917078854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -175,10 +180,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609918427601" />
+    <state x="1336" y="488" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609920205989">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1336" y="488" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609920205989" />
     <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1609919622925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1609919622925" />
+    <state x="1152" y="17" width="908" height="710" key="dock-window-2" timestamp="1609920586528">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1152" y="17" width="908" height="710" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1609920586528" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1609917639148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

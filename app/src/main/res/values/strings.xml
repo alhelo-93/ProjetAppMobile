@@ -13,4 +13,8 @@
     <string name="menu_Votre_Voiture">Votre Voiture</string>
     <string name="menu_Consomation">Consomation</string>
     <string name="menu_Entretien">Entretien</string>
+    <string name="btCalculer">Calculer</string>
+    <string name="poids_total">Poids Total</string>
+    <string name="kw">KW</string>
+    <string name="gazCarbon">Gaz Carbon</string>
 </resources>

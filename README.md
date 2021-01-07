@@ -14,13 +14,13 @@
 * Git version 2.19 minimum. Vérification avec: git --version
 * Android studio SDK Components Setup faut cocher Android Virtul Device 
 ## Voitures ou véhicules de < 3500 kg
-* Une taxe de base de CHF 40.– est perçue puis
+* Une taxe de base de CHF 40.– est perçue.
 
-* CHF 0.15 par kg jusqu'à 2000 kg et CHF 0.30 pour chaque kg supplémentaire puis
+* CHF 0.15 par kg jusqu'à 2000 kg et CHF 0.30 pour chaque kg supplémentaire.
 * CHF 2.– par kW jusqu'à 100 kW et CHF 3.– pour chaque kW supplémentaire.
 # La taxe est réduite de 75 % si les véhicules
 
-* émettent moins de 120 g de CO2 au km;
+* émettent moins de 120 g de CO2 par km;
 * fonctionnent au gaz ou à un carburant naturel (colza, bioéthanol, etc.) et sont spécifiquement équipés pour l'usage de ce genre de  carburant.
 ## IceScrum
 * Le suivi des projets se fait dans les projets IceScrum suivants: Taxes, Assurances, entretien, carburant

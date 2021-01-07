@@ -20,4 +20,7 @@
     <string name="menu_Plaques">Plaques</string>
     <string name="menu_Assurance">Entretien</string>
     <string name="menu_CoutTotal">Entretien</string>
+    <string name="menu_Assurances">Assurance</string>
+    <string name="menu_Consomations">Consomation</string>
+    <string name="menu_CoutTotaux">Cout Total</string>
 </resources>

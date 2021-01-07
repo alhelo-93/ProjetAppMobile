@@ -28,23 +28,23 @@ class HomeFragment : Fragment() {
         })
         val textViewPuiss: TextView = root.findViewById(R.id.Puiss_KW_TextView)
         homeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textViewConso.text = it
+            textViewPuiss.text = it
         })
         val textViewCarbu: TextView = root.findViewById(R.id.Carbu_TextView)
         homeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textViewConso.text = it
+            textViewCarbu.text = it
         })
         val textViewPoidsT: TextView = root.findViewById(R.id.PoidsT_TextView)
         homeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textViewConso.text = it
+            textViewPoidsT.text = it
         })
         val textViewCylind: TextView = root.findViewById(R.id.Cylind_TextView)
         homeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textViewConso.text = it
+            textViewCylind.text = it
         })
         val textViewAnnee: TextView = root.findViewById(R.id.Annee_TextView)
         homeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textViewConso.text = it
+            textViewAnnee.text = it
         })
 
         return root

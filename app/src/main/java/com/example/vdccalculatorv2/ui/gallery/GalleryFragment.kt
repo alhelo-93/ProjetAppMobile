@@ -13,7 +13,6 @@ import com.example.vdccalculatorv2.R
 
 class GalleryFragment : AppCompatActivity() {
 
-    val manager = supportFragmentManager
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

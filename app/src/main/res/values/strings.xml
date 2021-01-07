@@ -17,4 +17,7 @@
     <string name="poids_total">Poids Total</string>
     <string name="kw">KW</string>
     <string name="gazCarbon">Gaz Carbon</string>
+    <string name="menu_Plaques">Plaques</string>
+    <string name="menu_Assurance">Entretien</string>
+    <string name="menu_CoutTotal">Entretien</string>
 </resources>

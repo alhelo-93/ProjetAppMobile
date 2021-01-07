@@ -22,31 +22,6 @@ class HomeFragment : Fragment() {
         homeViewModel =
                 ViewModelProvider(this).get(HomeViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_home, container, false)
-        val textViewConso: TextView = root.findViewById(R.id.Conso_moy_TextView)
-        homeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textViewConso.text = it
-        })
-        val textViewPuiss: TextView = root.findViewById(R.id.Puiss_KW_TextView)
-        homeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textViewPuiss.text = it
-        })
-        val textViewCarbu: TextView = root.findViewById(R.id.Carbu_TextView)
-        homeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textViewCarbu.text = it
-        })
-        val textViewPoidsT: TextView = root.findViewById(R.id.PoidsT_TextView)
-        homeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textViewPoidsT.text = it
-        })
-        val textViewCylind: TextView = root.findViewById(R.id.Cylind_TextView)
-        homeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textViewCylind.text = it
-        })
-        val textViewAnnee: TextView = root.findViewById(R.id.Annee_TextView)
-        homeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textViewAnnee.text = it
-        })
-
         return root
     }
 }

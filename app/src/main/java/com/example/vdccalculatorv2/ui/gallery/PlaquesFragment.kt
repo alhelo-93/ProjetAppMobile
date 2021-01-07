@@ -6,16 +6,14 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
 import com.example.vdccalculatorv2.R
 
-class GalleryFragment : AppCompatActivity() {
+class PlaquesFragment : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
+        setContentView(R.layout.fragment_plaques)
 
 
         // get refence to button and edittext

@@ -13,9 +13,9 @@
 
     <fragment
         android:id="@+id/Consomation"
-        android:name="com.example.vdccalculatorv2.ui.gallery.GalleryFragment"
+        android:name="com.example.vdccalculatorv2.ui.gallery.PlaquesFragment"
         android:label="@string/menu_Consomation"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_plaques" />
 
     <fragment
         android:id="@+id/Entretien"

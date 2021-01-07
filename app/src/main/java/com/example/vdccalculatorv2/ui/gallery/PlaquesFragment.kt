@@ -1,7 +1,9 @@
 package com.example.vdccalculatorv2.ui.gallery
 
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -10,7 +12,10 @@ import com.example.vdccalculatorv2.R
 
 class PlaquesFragment : AppCompatActivity() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(inflater: LayoutInflater,
+                          container: ViewGroup?,
+                          savedInstanceState: Bundle?
+    ) {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.fragment_plaques)

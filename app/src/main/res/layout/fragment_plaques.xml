@@ -2,10 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/carbon"
+    android:id="@+id/Plaques"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".PlaquesFragment">
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -35,6 +35,7 @@
         android:id="@+id/totalWeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,13 +43,13 @@
         app:layout_constraintHorizontal_bias="0.741"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.209"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.209" />
 
     <EditText
         android:id="@+id/PowerWatt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -56,13 +57,13 @@
         app:layout_constraintHorizontal_bias="0.741"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.337"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.337" />
 
     <EditText
         android:id="@+id/carbonO2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -70,8 +71,7 @@
         app:layout_constraintHorizontal_bias="0.741"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.458"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.458" />
 
     <TextView
         android:id="@+id/textView"

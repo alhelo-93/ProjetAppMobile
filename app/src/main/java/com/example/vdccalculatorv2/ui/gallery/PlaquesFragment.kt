@@ -12,10 +12,7 @@ import com.example.vdccalculatorv2.R
 
 class PlaquesFragment : AppCompatActivity() {
 
-    override fun onCreate(inflater: LayoutInflater,
-                          container: ViewGroup?,
-                          savedInstanceState: Bundle?
-    ) {
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.fragment_plaques)

@@ -1,4 +1,4 @@
-package com.example.vdccalculatorv2.ui.slideshow
+package com.example.vdccalculatorv2.ui.Plaques
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.vdccalculatorv2.R
 
-class SlideshowFragment : Fragment() {
+class PlaquesFragment : Fragment() {
 
-    private lateinit var slideshowViewModel: SlideshowViewModel
+    private lateinit var plaquesViewModel: PlaquesViewModel
 
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        slideshowViewModel =
-                ViewModelProvider(this).get(SlideshowViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_entretien, container, false)
-        val textView: TextView = root.findViewById(R.id.text_slideshow)
-        slideshowViewModel.text.observe(viewLifecycleOwner, Observer {
+        plaquesViewModel =
+                ViewModelProvider(this).get(PlaquesViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_plaques, container, false)
+        val textView: TextView = root.findViewById(R.id.nav_plaques)
+        plaquesViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         return root

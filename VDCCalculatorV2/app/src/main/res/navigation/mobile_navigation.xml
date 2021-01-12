@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.vdccalculatorv2.ui.slideshow.SlideshowFragment"
+        android:name="com.example.vdccalculatorv2.ui.Plaques.PlaquesFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_entretien" />
 </navigation>

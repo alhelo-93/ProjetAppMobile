@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Votre_Voiture"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_Votre_Voiture" />
+        <item
+            android:id="@+id/Plaques"
+            android:icon="@android:drawable/stat_sys_phone_call"
+            android:title="@string/menu_Plaques" />
+        <item
+            android:id="@+id/Assurance"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="@string/menu_Assurances" />
+        <item
+            android:id="@+id/Entretien"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_Entretien" />
+        <item
+            android:id="@+id/Consomation"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/menu_Consomations" />
+        <item
+            android:id="@+id/CoutsTotaux"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="@string/menu_CoutTotaux" />
+    </group>
+</menu>

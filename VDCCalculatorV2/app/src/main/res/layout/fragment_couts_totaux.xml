@@ -16,6 +16,15 @@
 
     </TextView>
 
+    <TableRow android:background="#51B435" android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Audi A3 8P" />
+
+    </TableRow>
 
     <TableRow android:background="#51B435" android:padding="10dp">
 

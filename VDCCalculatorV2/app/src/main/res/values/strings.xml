@@ -12,4 +12,9 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_entretien">entretien</string>
     <string name="menu_plaques">plaques</string>
+    <string name="btCalculer">Calculer</string>
+    <string name="poids_total">poidsTotal</string>
+    <string name="kw">Kw</string>
+    <string name="gazCarbon">CO2</string>
+    <string name="menu_couts">couts</string>
 </resources>

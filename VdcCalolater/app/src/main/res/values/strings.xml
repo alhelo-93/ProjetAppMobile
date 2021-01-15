@@ -12,4 +12,8 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="todo">TODO</string>
     <string name="logoVD">TODO</string>
+    <string name="btCalculer">Calculer</string>
+    <string name="poids_total">Poids Total</string>
+    <string name="kw">Kw</string>
+    <string name="gazCarbon">g de Co2 par Km</string>
 </resources>

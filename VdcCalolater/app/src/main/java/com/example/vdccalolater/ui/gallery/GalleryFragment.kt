@@ -53,7 +53,6 @@ class GalleryFragment : Fragment() {
                 var chNumberInt = chNumberstr.toInt()
                 val plNumbersrt: String = PlNumber.text.toString()
                 var plNumberInt = plNumbersrt.toInt()
-                var num2 = 0
                 var chNumberTot = 0
                 // Here constant
                 // The Kg price of cars wight

@@ -16,7 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="#00796b"
-            app:popupTheme="@style/Theme.VdcCalolater.PopupOverlay" />
+            app:popupTheme="@style/Theme.VdcCalolater.PopupOverlay"
+            app:title="firstpage" />
 
     </com.google.android.material.appbar.AppBarLayout>
 

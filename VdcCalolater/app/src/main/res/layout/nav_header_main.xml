@@ -17,7 +17,6 @@
         android:id="@+id/imageView3"
         android:layout_width="389dp"
         android:layout_height="131dp"
-        android:contentDescription="@string/logoVD"
         app:srcCompat="@drawable/ic_action_name"
         tools:srcCompat="@drawable/ic_action_name" />
 </LinearLayout>

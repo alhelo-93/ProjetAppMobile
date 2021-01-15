@@ -8,8 +8,8 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Plaque</string>
-    <string name="menu_slideshow">enrtien</string>
+    <string name="menu_plaque">Plaque</string>
+    <string name="menu_entrtien">Enrtien</string>
     <string name="todo">TODO</string>
     <string name="logoVD">TODO</string>
     <string name="btCalculer">Calculer</string>

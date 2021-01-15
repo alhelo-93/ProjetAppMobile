@@ -22,4 +22,8 @@
         android:name="com.example.vdccalolater.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_assurance"
+        android:name="com.example.vdccalolater.ui.Assurance.AssuranceFragment"
+        android:label="AssuranceFragment" />
 </navigation>

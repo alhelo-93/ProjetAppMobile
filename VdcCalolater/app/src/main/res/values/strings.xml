@@ -16,4 +16,5 @@
     <string name="poids_total">Poids Total</string>
     <string name="kw">Kw</string>
     <string name="gazCarbon">g de Co2 par Km</string>
+    <string name="menu_assurance">Assurance</string>
 </resources>

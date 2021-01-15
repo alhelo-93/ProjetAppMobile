@@ -26,4 +26,8 @@
         android:id="@+id/nav_assurance"
         android:name="com.example.vdccalolater.ui.Assurance.AssuranceFragment"
         android:label="AssuranceFragment" />
+    <fragment
+        android:id="@+id/nav_TCosts"
+        android:name="com.example.vdccalolater.ui.TotalCosts.TCostsFragment"
+        android:label="TCostsFragment" />
 </navigation>

@@ -17,4 +17,5 @@
     <string name="kw">Kw</string>
     <string name="gazCarbon">g de Co2 par Km</string>
     <string name="menu_assurance">Assurance</string>
+    <string name="menu_TotalCosts">Cout total</string>
 </resources>

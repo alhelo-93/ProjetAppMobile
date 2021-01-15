@@ -20,5 +20,9 @@
             android:id="@+id/nav_assurance"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_assurance" />
+        <item
+            android:id="@+id/nav_TCosts"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_TotalCosts" />
     </group>
 </menu>

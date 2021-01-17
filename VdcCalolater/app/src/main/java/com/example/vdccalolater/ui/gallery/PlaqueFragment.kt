@@ -12,17 +12,17 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.vdccalolater.R
 
-class GalleryFragment : Fragment() {
+class PlaqueFragment : Fragment() {
 
-    private lateinit var galleryViewModel: GalleryViewModel
+    private lateinit var plaqueViewModel: PlaqueViewModel
 
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        galleryViewModel =
-                ViewModelProvider(this).get(GalleryViewModel::class.java)
+        plaqueViewModel =
+                ViewModelProvider(this).get(PlaqueViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_plaque, container, false)
 
         return root

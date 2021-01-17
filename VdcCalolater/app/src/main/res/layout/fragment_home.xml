@@ -19,7 +19,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976"
-        app:srcCompat="@android:drawable/ic_input_add" />
+        app:srcCompat="@android:drawable/ic_input_add"
+        />
 
     <EditText
         android:id="@+id/Carbu_EditText"
@@ -32,13 +33,14 @@
         app:layout_constraintHorizontal_bias="0.92"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.276" />
+        app:layout_constraintVertical_bias="0.276"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/Conso_moy_TextView"
         android:layout_width="161dp"
         android:layout_height="23dp"
-        android:text="Consommation moyenne"
+        android:text="@string/consommation_moyenne"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.025"
@@ -57,7 +59,8 @@
         app:layout_constraintHorizontal_bias="0.917"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.462" />
+        app:layout_constraintVertical_bias="0.462"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/Conso_EditText"
@@ -70,7 +73,8 @@
         app:layout_constraintHorizontal_bias="0.92"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.144" />
+        app:layout_constraintVertical_bias="0.144"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/Puiss_KW_EditText"
@@ -83,7 +87,8 @@
         app:layout_constraintHorizontal_bias="0.92"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.209" />
+        app:layout_constraintVertical_bias="0.209"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/Cylin_EditText"
@@ -96,7 +101,8 @@
         app:layout_constraintHorizontal_bias="0.917"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.401" />
+        app:layout_constraintVertical_bias="0.401"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/PoidsT_EditText"
@@ -109,13 +115,14 @@
         app:layout_constraintHorizontal_bias="0.92"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.341" />
+        app:layout_constraintVertical_bias="0.341"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/Puiss_KW_TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Puissance Kw"
+        android:text="@string/puissance_kw"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.148"
@@ -127,7 +134,7 @@
         android:id="@+id/Carbu_TextView"
         android:layout_width="68dp"
         android:layout_height="16dp"
-        android:text="Carburant"
+        android:text="@string/carburant"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.163"
@@ -139,7 +146,7 @@
         android:id="@+id/PoidsT_TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Poids Total"
+        android:text="@string/poids_total"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.158"
@@ -151,7 +158,7 @@
         android:id="@+id/Annee_TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Année"
+        android:text="@string/ann_e"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.201"
@@ -163,7 +170,7 @@
         android:id="@+id/Cylind_TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cylindrée"
+        android:text="@string/cylindr_e"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.188"

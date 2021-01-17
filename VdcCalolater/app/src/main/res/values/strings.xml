@@ -10,12 +10,19 @@
     <string name="menu_home">Home</string>
     <string name="menu_plaque">Plaque</string>
     <string name="menu_entrtien">Enrtien</string>
-    <string name="todo">TODO</string>
+
     <string name="logoVD">TODO</string>
     <string name="btCalculer">Calculer</string>
-    <string name="poids_total">Poids Total</string>
+
     <string name="kw">Kw</string>
     <string name="gazCarbon">g de Co2 par Km</string>
     <string name="menu_assurance">Assurance</string>
     <string name="menu_TotalCosts">Cout total</string>
+    <string name="consommation_moyenne">Consommation moyenne</string>
+    <string name="puissance_kw">Puissance Kw</string>
+
+    <string name="poids_total">Poids Total</string>
+    <string name="carburant">Carburant</string>
+    <string name="ann_e">Année</string>
+    <string name="cylindr_e">Cylindrée</string>
 </resources>

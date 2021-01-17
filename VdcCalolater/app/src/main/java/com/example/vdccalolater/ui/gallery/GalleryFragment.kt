@@ -9,7 +9,6 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.vdccalolater.R
 
@@ -24,7 +23,7 @@ class GalleryFragment : Fragment() {
     ): View? {
         galleryViewModel =
                 ViewModelProvider(this).get(GalleryViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_gallery, container, false)
+        val root = inflater.inflate(R.layout.fragment_plaque, container, false)
 
         return root
     }
@@ -32,7 +31,7 @@ class GalleryFragment : Fragment() {
     class GalleryFragment : AppCompatActivity() {
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
-            setContentView(R.layout.fragment_gallery)
+            setContentView(R.layout.fragment_plaque)
 
             // get refence to button and edittext
 

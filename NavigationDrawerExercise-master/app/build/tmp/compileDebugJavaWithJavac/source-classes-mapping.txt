@@ -1,7 +1,0 @@
-com/developers/hand/second/navigationdrawerexercise/BuildConfig.java
- com.developers.hand.second.navigationdrawerexercise.BuildConfig
-com/developers/hand/second/navigationdrawerexercise/HomeActivity.java
- com.developers.hand.second.navigationdrawerexercise.HomeActivity
- com.developers.hand.second.navigationdrawerexercise.HomeActivity$1
-com/developers/hand/second/navigationdrawerexercise/Profile.java
- com.developers.hand.second.navigationdrawerexercise.Profile

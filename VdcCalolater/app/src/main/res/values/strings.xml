@@ -8,9 +8,15 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
+<<<<<<< HEAD
     <string name="menu_plaque">Plaque</string>
     <string name="menu_entrtien">Enrtien</string>
 
+=======
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="todo">TODO</string>
+>>>>>>> parent of fa9d688... Merge branch 'main' of https://github.com/alhelo-93/ProjetAppMobile into main
     <string name="logoVD">TODO</string>
     <string name="btCalculer">Calculer</string>
 

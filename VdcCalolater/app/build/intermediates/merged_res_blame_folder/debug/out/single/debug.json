@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_slideshow.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-hdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_carlogo.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-xhdpi\\carlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_constrationlogo.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-xxhdpi\\constrationlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_constrationlogo.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-mdpi\\constrationlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_homelogo.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-hdpi\\homelogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-mdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_carlogo.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-xxhdpi\\carlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_carlogo.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-mdpi\\carlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_assurance.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\layout\\fragment_assurance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_plaque.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\layout\\fragment_plaque.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_homelogo.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-xxhdpi\\homelogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_homelogo.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-xhdpi\\homelogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_constrationlogo.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-anydpi\\constrationlogo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_constrationlogo.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-hdpi\\constrationlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_gallery.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_camera.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_constrationlogo.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-xhdpi\\constrationlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_homelogo.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-mdpi\\homelogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_totalcosts.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\layout\\fragment_totalcosts.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_carlogo.png.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-hdpi\\carlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_homelogo.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-anydpi\\homelogo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_carlogo.xml.flat",
+        "source": "C:\\Users\\Miguel.SOARES\\Documents\\GitHub\\ProjetAppMonile\\VdcCalolater\\app\\src\\main\\res\\drawable-anydpi\\carlogo.xml"
+    }
+]

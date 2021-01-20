@@ -8,8 +8,8 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_plaque">plauqe</string>
-    <string name="menu_entertien">entertien</string>
+    <string name="menu_plaque">plaque</string>
+    <string name="menu_entretien">entretien</string>
     <!-- les composant de plauqe page -->
     <string name="btCalculer">Calculer</string>
     <string name="poids_total">Poids total</string>

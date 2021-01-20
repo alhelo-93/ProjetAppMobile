@@ -13,13 +13,19 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.myapplication.ui.gallery.GalleryFragment"
+        android:name="com.example.myapplication.ui.plaque.PlaqueFragment"
         android:label="@string/menu_plaque"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_plaque" />
 
     <fragment
         android:id="@+id/nav_slideshow"
+<<<<<<< HEAD
         android:name="com.example.myapplication.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_entretien"
         tools:layout="@layout/fragment_slideshow" />
+=======
+        android:name="com.example.myapplication.ui.entertien.EntertienFragment"
+        android:label="@string/menu_entertien"
+        tools:layout="@layout/fragment_entertien" />
+>>>>>>> 2e465e3e19cc21348a5458fa55e8e3a4ce392c21
 </navigation>

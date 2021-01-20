@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Carbu_EditText" type="id"></item>
+    <item name="Conso_moy_TextView" type="id"></item>
+    <item name="Annee_EditText" type="id"></item>
+    <item name="Conso_EditText" type="id"></item>
+    <item name="Puiss_KW_EditText" type="id"></item>
+    <item name="Cylin_EditText" type="id"></item>
+    <item name="PoidsT_EditText" type="id"></item>
+    <item name="Puiss_KW_TextView" type="id"></item>
+    <item name="Carbu_TextView" type="id"></item>
+    <item name="PoidsT_TextView" type="id"></item>
+    <item name="Annee_TextView" type="id"></item>
+    <item name="Cylind_TextView" type="id"></item>
+</resources>

@@ -1,2 +1,0 @@
-com/example/vdccalculator/BuildConfig.java
- com.example.vdccalculator.BuildConfig

@@ -1,2 +1,0 @@
-com/example/vdccalolater/BuildConfig.java
- com.example.vdccalolater.BuildConfig

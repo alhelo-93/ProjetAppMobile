@@ -16,5 +16,19 @@
             android:id="@+id/nav_entretien"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_entretien" />
+        <item
+            android:id="@+id/nav_assurance"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_assurance" />
+
+        <item
+            android:id="@+id/nav_carburant"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_carburant" />
+
+        <item
+            android:id="@+id/nav_totalcosts"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_CoutsT" />
     </group>
 </menu>

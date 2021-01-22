@@ -15,5 +15,8 @@
     <string name="poids_total">Poids total</string>
     <string name="kw">Kw</string>
     <string name="gazCarbon">Co2</string>
+    <string name="menu_assurance">assurance</string>
+    <string name="menu_CoutsT">Cout Total</string>
+    <string name="menu_carburant">carburant</string>
     <!-- se termine les composant de plauqe page -->
 </resources>

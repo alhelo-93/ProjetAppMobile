@@ -24,27 +24,30 @@
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
     <loaded-nodes>
-      <connection connection-id="a8c0fa8d-8c24-41e8-87b4-5df4155cfa18">
-        <schema name="main" object-types="table" />
+      <connection connection-id="2f1e5566-21a2-4b9d-9ec4-cebc56fe2599">
+        <schema name="vdc_db" object-types="table" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="a8c0fa8d-8c24-41e8-87b4-5df4155cfa18">
-      <console name="mydatabase" type="STANDARD" schema="main" session="Main" />
+    <connection id="2f1e5566-21a2-4b9d-9ec4-cebc56fe2599">
+      <console name="DB" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="a8c0fa8d-8c24-41e8-87b4-5df4155cfa18" />
+    <connection id="2f1e5566-21a2-4b9d-9ec4-cebc56fe2599" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
+  </component>
+  <component name="DBNavigator.Project.FileConnectionMappingManager">
+    <mapping file-url="file://$PROJECT_DIR$/app/src/main/assets/vdc_dbv1.sql" connection-id="2f1e5566-21a2-4b9d-9ec4-cebc56fe2599" session-id="MAIN" current-schema="vdc_db" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <method-browser />
@@ -66,26 +69,23 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="a8c0fa8d-8c24-41e8-87b4-5df4155cfa18" active="true">
+      <connection id="2f1e5566-21a2-4b9d-9ec4-cebc56fe2599" active="true">
         <database>
-          <name value="mydatabase" />
+          <name value="DB" />
           <description value="" />
-          <database-type value="SQLITE" />
+          <database-type value="MYSQL" />
           <config-type value="BASIC" />
-          <database-version value="3.21" />
+          <database-version value="8.0" />
           <driver-source value="BUILTIN" />
           <driver-library value="" />
           <driver value="" />
-          <url-type value="FILE" />
+          <url-type value="DATABASE" />
           <host value="localhost" />
-          <port value="1234" />
-          <database value="database" />
-          <files>
-            <file path="sqlite.db" schema="main" />
-          </files>
-          <type value="NONE" />
-          <user value="" />
-          <deprecated-pwd value="" />
+          <port value="3306" />
+          <database value="vdc_db" />
+          <type value="USER_PASSWORD" />
+          <user value="root" />
+          <deprecated-pwd value="UGEkJHcwcmQ=" />
         </database>
         <properties>
           <auto-commit value="false" />

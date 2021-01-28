@@ -18,5 +18,6 @@
     <string name="menu_assurance">assurance</string>
     <string name="menu_CoutsT">Cout Total</string>
     <string name="menu_carburant">carburant</string>
+    <string name="vdicon">vdicon</string>
     <!-- se termine les composant de plauqe page -->
 </resources>
